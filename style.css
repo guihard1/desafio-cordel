@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 header h1 {
@@ -41,6 +41,12 @@ header p {
     padding-bottom: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
+    line-height: 2em;
+}
+
+#geral {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 #box1 {
@@ -58,6 +64,7 @@ header p {
     font-size: 50px;
     padding: 50px 0px 350px 40px;
     margin-bottom: 100px;
+    line-height: 2em;
 }
 
 #box2 {
@@ -92,6 +99,7 @@ header p {
     text-align: left;
     font-size: 50px;
     padding: 50px 0px 200px 40px;
+    line-height: 2em;
 }
 
 #box4 {
@@ -115,13 +123,13 @@ header p {
     text-align: left;
     font-size: 50px;
     padding: 50px 0px 200px 40px;
+    line-height: 2em;
 }
 
 footer {
     background-color: rgba(0, 0, 0, 0.808);
     text-align: center;
-    padding: 5px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 footer p a {
@@ -142,6 +150,7 @@ footer p a {
     }
 
     #box1 p, #box3 p, #box5 p {
+        line-height: 2.2em;
         font-size: calc(3vw + 0.1rem)
     }
 
@@ -150,6 +159,7 @@ footer p a {
     }
 
     .texto {
+        line-height: 2.2em;
         font-size: calc(3vw + 0.1rem);
         width: 55%;
         text-shadow: 3px 0px 0px rgba(0, 0, 0, 0.24);
